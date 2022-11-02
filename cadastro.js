@@ -26,7 +26,7 @@ $(document).ready(function(){
     auth.createUserWithEmailAndPassword(newUserEmail,newUserPassword).then(user=>{
         console.log(user);
         alert("Cadastro realizado com sucesso");
-        location.href = "#";
+        location.href = "https://francisconeto96.github.io/questionario/login.html";
         //location.assign("https:///CursoPROGRAMADORBR/easy/areacadastro.js");
     }).catch(error=>{
         console.log(error);
