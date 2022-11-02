@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(50, 101, 240);
+}
+div{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+
+}
+button:hover{
+    color: rgb(255, 255, 255);
+}
+.criar:hover{
+color: rgb(59, 59, 252);
+}
+button{
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10%;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(50, 101, 240);
+    cursor: pointer;
+}
+
+p{
+    color: white;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
