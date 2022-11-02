@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+body{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: grid;
+    place-items: center;
+    
+}
+
+
+
+hr{
+    margin-top: 50px;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    padding-top: 20px;
+    
+    
+}
+header{
+    background-color: #192E5B;
+    width: 100%;
+    padding-bottom: 20px;
+    color: aliceblue;
+    
+}
+
+
+#confirmar{
+    
+    margin-top: 20px;
+    border: rgb(5, 5, 5), solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 20px;
+    margin-bottom: 50px;
+}
+#confirmar:hover {
+    background-color:rgb(221, 220, 220);
+    border-radius: 2px;
+}
+input{
+    margin-top: 25px;
+}
+p{
+    text-align: left;
+}
+
+.certa{
+    background-color: green;
+}
+.errada{
+    background-color: rgb(255, 0, 0);
+}
