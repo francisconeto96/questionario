@@ -30,7 +30,7 @@ $(document).ready(function(){
             console.log(auth.currentUser);
 
             alert("Login realizado com sucesso!");
-            location.href = "http://www.devmedia.com.br";
+            location.href = "https://francisconeto96.github.io/questionario/perguntas.html";
 
         }).catch(error => {
             console.log(error)
