@@ -52,6 +52,7 @@ input{
 }
 p{
     text-align: left;
+    margin-left: 10px;
 }
 
 .certa{
@@ -59,4 +60,10 @@ p{
 }
 .errada{
     background-color: rgb(255, 0, 0);
+}
+
+#teste{
+    background-color: rgba(119, 119, 119, 0.096);
+    width: 80%;
+    
 }
